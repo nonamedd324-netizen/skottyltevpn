@@ -1,5 +1,5 @@
 #profile-title: 🛜 Unlimited VPN
-#announce: ⚡ Некоторые серверы могут показывать n/a в простое — это нормально. Меньше ms — лучше. Для российских сайтов (Яндекс, ВК, Ozon, Wildberries) во избежание блокировок конфигов отключайте VPN. Обход блокировок работает на LTE.
+#announce: ⚡ Некоторые серверы могут показывать n/a в простое — это нормально. Меньше ms — лучше. Обход блокировок работает на LTE.
 #profile-update-interval: 1
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
