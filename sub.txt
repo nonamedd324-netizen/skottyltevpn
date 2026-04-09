@@ -1,6 +1,6 @@
 #profile-title: 🛜 Unlimited VPN
-#announce: ⚡ Лучший безлимитный VPN. Меньше ms — лучше. LTE Reality - сильные обходы для обхода любых блокировок. Так что если на них большой пинг около 500 это нормально.
-#profile-update-interval: 1
+#announce: ⚡ Лучший безлимитный VPN. Меньше ms — лучше. LTE - Сервера для обхода блокировок мобильного интернета (белых списков). 
+#profile-update-interval: 0.30
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
 # 🛜 WiFi VPN
