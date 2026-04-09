@@ -75,20 +75,20 @@ vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@thaelen.kaguya.sbs:443?encryption=n
 # 🇦🇺 Австралия LTE
 vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@mkdc.idealvpn.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&pbk=dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk&fp=chrome&sid=dc4aa6635008a9ae&spx=%2F&type=tcp#%F0%9F%87%A6%F0%9F%87%BA%20%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D1%8F%20LTE
 
-# 📶 LTE Reality Bypass (рабочий указатель)
-vless://42faac71-556a-4f4c-801b-328f0b4b9ef6@pol.vles.space:8443?encryption=none&security=reality&sni=cloud.mail.ru&pbk=P0fQAbHaRJ6aF8yExwqISCB0ClTrGFhZe7hGDO8YnX4&sid=1413cc6a376b5257&fp=chrome&type=grpc&serviceName=cloud#%F0%9F%93%B6%20LTE%20Reality%20Bypass
+# 📶 LTE Reality Bypass
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@158.160.226.84:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&pbk=lO7Zil2R6qgmfyz1XRPuDXpkDOgfTeOAVwvoeB9SvxM&fp=chrome&sid=8d327a58&type=tcp#%F0%9F%93%B6%20LTE%20Reality%20Bypass
 
-# 🇺🇸 LTE Reality | Neon
-vless://42faac71-556a-4f4c-801b-328f0b4b9ef6@pol.vles.space:8443?encryption=none&security=reality&sni=cloud.mail.ru&pbk=P0fQAbHaRJ6aF8yExwqISCB0ClTrGFhZe7hGDO8YnX4&sid=1413cc6a376b5257&fp=chrome&type=grpc&serviceName=cloud&fragment=100-200#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Neon
+# 🇺🇸 LTE Reality | Tele2
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@158.160.237.244:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&pbk=Vvis3eZGLfxl0vGr9EHb9l8NIxIpPqN5HH3womsOs0A&fp=chrome&sid=5bcdd5dd&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Tele2
 
-# 🇺🇸 LTE Reality | Ideal
-vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@mkdc.idealvpn.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk&fp=chrome&sid=dc4aa6635008a9ae&spx=%2F&type=tcp&fragment=100-200#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Ideal
+# 🇺🇸 LTE Reality | Резерв
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@158.160.78.133:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&pbk=SOFfo_0hdu3uNu4cfZuDUXpBSlKBBF1v-cjK8gH5dmY&fp=chrome&sid=21d47136&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2
 
-# 🇺🇸 LTE Reality | Vortex
-vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@mkdc.idealvpn.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk&fp=chrome&sid=dc4aa6635008a9ae&spx=%2F&type=tcp&fragment=50-100#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Vortex
+# 🇺🇸 LTE Reality | Megafon
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@84.201.179.43:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=n0-aaZadpKAotgcHKbwxM1MTSxZk4t9anJJ_M5Cj6AU&fp=chrome&sid=8f0acc87&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Megafon
 
-# 🇺🇸 LTE Reality | Eclipse
-vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@mkdc.idealvpn.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk&fp=chrome&sid=dc4aa6635008a9ae&spx=%2F&type=tcp&fragment=150-250#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Eclipse
+# 🇺🇸 LTE Reality | Beeline
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@51.250.74.206:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&pbk=arqbZVKI0P-f39EvOnTgW7IfGKqj3jPiDx9SXU1JfVc&fp=chrome&sid=fc2afa27&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Beeline
 
-# 🇺🇸 LTE Reality | Phantom
-vless://fc7f86d5-f5e4-4db1-aac7-e2ee5261233e@mkdc.idealvpn.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk&fp=chrome&sid=dc4aa6635008a9ae&spx=%2F&type=tcp&fragment=200-300#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20Phantom
+# 🇺🇸 LTE Reality | Все операторы
+vless://961148de-7539-46a0-ae4b-55092ea1e23f@158.160.226.84:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&pbk=lO7Zil2R6qgmfyz1XRPuDXpkDOgfTeOAVwvoeB9SvxM&fp=chrome&sid=8d327a58&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20LTE%20Reality%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B
