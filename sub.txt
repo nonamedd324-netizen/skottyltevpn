@@ -3,8 +3,8 @@
 #profile-update-interval: 0.30
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
-# 🚀 Ultra Fast LTE/WiFi (10 Gbit)
-vless://c55f9fc4-4080-4bb3-8513-9a496f5a8f3f@158.160.222.126:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.com&pbk=x274vAATjQyRHChXL5coeXJB4ZuGx_-4Q_918Rw6lWA&fp=firefox&sid=372c05b48fe83e5b&spx=%2F&type=tcp&fragment=100-200#%F0%9F%9A%80%20Ultra%20Fast%20LTE/WiFi%20%2810%20Gbit%29
+# 🚀 Сверхбыстрый LTE/WiFi (10 Gbit)
+vless://c55f9fc4-4080-4bb3-8513-9a496f5a8f3f@158.160.222.126:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.com&pbk=x274vAATjQyRHChXL5coeXJB4ZuGx_-4Q_918Rw6lWA&fp=firefox&sid=372c05b48fe83e5b&spx=%2F&type=tcp&fragment=100-200#%F0%9F%9A%80%20%D0%A1%D0%B2%D0%B5%D1%80%D1%85%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9%20LTE/WiFi%20%2810%20Gbit%29
 
 # 🛜 WiFi VPN
 vless://42faac71-556a-4f4c-801b-328f0b4b9ef6@193.25.216.168:61227?encryption=none&security=reality&type=xhttp&mode=auto&path=%2F&host=cloudcdn-m9-14.cdn.yandex.net&sni=cloudcdn-m9-14.cdn.yandex.net&pbk=U59CD7HaMgEX67FZS-uaBAFdyjuXb3oqtK7zRGsSuUA&fp=safari&sid=aabbccdd#%F0%9F%9B%9C%20WiFi%20VPN
