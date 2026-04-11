@@ -1,5 +1,18 @@
 {
-  "remarks": "🇩🇪 LTE | #3",
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
   "outbounds": [
     {
       "protocol": "trojan",
@@ -24,13 +37,27 @@
         "grpcSettings": {
           "serviceName": "UpdateService"
         }
-      }
+      },
+      "tag": "proxy"
     }
   ]
 }
 
 {
-  "remarks": "🇷🇺 LTE | #4",
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
   "outbounds": [
     {
       "protocol": "vless",
@@ -42,9 +69,7 @@
             "users": [
               {
                 "encryption": "none",
-                "id": "e11ca047-3e50-469b-aa1a-beb9be0256b2",
-                "level": 8,
-                "security": "auto"
+                "id": "e11ca047-3e50-469b-aa1a-beb9be0256b2"
               }
             ]
           }
@@ -57,13 +82,13 @@
           "fingerprint": "chrome",
           "publicKey": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
           "serverName": "ir.ozone.ru",
-          "shortId": "6da16b1335651b38",
-          "spiderX": "/"
+          "shortId": "6da16b1335651b38"
         },
         "grpcSettings": {
           "serviceName": "UpdateService"
         }
-      }
+      },
+      "tag": "proxy"
     }
   ]
 }
