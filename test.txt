@@ -1,1 +1,69 @@
-trojan://EcN1z5fXsLbAb5wesZ_rgxGTNDxWw_VC@c4b.appav.net:7443?security=reality&sni=ir.ozone.ru&fp=qq&pbk=HQtcSpijS7bh70dLQ273lpItvMptn6xys4DGnP5u5G8&sid=d6c8cbeed2b10851&type=grpc&serviceName=UpdateService#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%7C%20%232
+{
+  "remarks": "🇩🇪 LTE | #3",
+  "outbounds": [
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "46.8.209.56",
+            "port": 8443,
+            "password": "fmxwUmkuRgnozLdJ5_dCo9HBx4Ko-UAk"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "5-gBUSFmJN5u_zZmqvLeQJq6yhhXLV1qBqyNhiRFfik",
+          "serverName": "sso.passport.yandex.ru",
+          "shortId": "3537ce1e64a64124"
+        },
+        "grpcSettings": {
+          "serviceName": "UpdateService"
+        }
+      }
+    }
+  ]
+}
+
+{
+  "remarks": "🇷🇺 LTE | #4",
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "edgemskt2.appav.online",
+            "port": 2083,
+            "users": [
+              {
+                "encryption": "none",
+                "id": "e11ca047-3e50-469b-aa1a-beb9be0256b2",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
+          "serverName": "ir.ozone.ru",
+          "shortId": "6da16b1335651b38",
+          "spiderX": "/"
+        },
+        "grpcSettings": {
+          "serviceName": "UpdateService"
+        }
+      }
+    }
+  ]
+}
