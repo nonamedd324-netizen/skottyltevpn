@@ -1,1 +1,0 @@
-trojan://EcN1z5fXsLbAb5wesZ_rgxGTNDxWw_VC@c4b.appav.net:7443?security=reality&sni=ir.ozone.ru&fp=qq&pbk=HQtcSpijS7bh70dLQ273lpItvMptn6xys4DGnP5u5G8&sid=d6c8cbeed2b10851&type=grpc&serviceName=UpdateService#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%7C%20%232
