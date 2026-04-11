@@ -1,1 +1,0 @@
-trojan://fmxwUmkuRgnozLdJ5_dCo9HBx4Ko-UAk@46.8.209.56:8443?security=reality&sni=sso.passport.yandex.ru&fp=qq&pbk=5-gBUSFmJN5u_zZmqvLeQJq6yhhXLV1qBqyNhiRFfik&sid=3537ce1e64a64124&type=grpc&serviceName=UpdateService#%F0%9F%87%A9%F0%9F%87%AA%20LTE%20%7C%20%233
