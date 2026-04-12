@@ -3,38 +3,83 @@
 #profile-update-interval: 0.30
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
-# 🛜 WiFi VPN (фейк)
-vless://42faac71-556a-4f4c-801b-328f0b4b9ef6@193.25.216.168:61227?encryption=none&security=reality&type=xhttp&mode=auto&path=%2F&host=cloudcdn-m9-14.cdn.yandex.net&sni=cloudcdn-m9-14.cdn.yandex.net&pbk=U59CD7HaMgEX67FZS-uaBAFdyjuXb3oqtK7zRGsSuUA&fp=safari&sid=aabbccdd#%F0%9F%9B%9C%20WiFi%20VPN
-
-# 🇧🇾 Беларусь
-vless://42faac71-556a-4f4c-801b-328f0b4b9ef6@pol.vles.space:8443?encryption=none&security=reality&sni=cloud.mail.ru&pbk=P0fQAbHaRJ6aF8yExwqISCB0ClTrGFhZe7hGDO8YnX4&sid=1413cc6a376b5257&fp=chrome&type=grpc&serviceName=cloud#%F0%9F%87%A7%F0%9F%87%BE%20%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C
-
-# 🇵🇱 Польша
-vless://obhJwSMS3fZtdzV@144.31.4.119:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nvidia.com&pbk=WWfS06v1s10FKQSlSXV5NzF9ZfVkyJOg30taggzazwI&fp=chrome&sid=f877&type=tcp#%F0%9F%87%B5%F0%9F%87%B1%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
+# 🛜 WiFi VPN (рабочий)
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.dawn-crown.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🛜 WiFi VPN
 
 # 🇩🇪 Германия
-vless://4a0b7c5a-a08f-4b9d-b0e8-72882a80e1d5@de1.persik.host:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de1.persik.host&pbk=Wussb3Mki1IqtlASsx19TawQ9P2qHZL6M8sVxps6xx4&fp=random&sid=3f6a3ab281699a9d&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.bold-crown.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇩🇪 Германия
+
+# 🇸🇪 Швеция
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.dawn-crown.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇸🇪 Швеция
 
 # 🇫🇮 Финляндия
-vless://obhJwSMS3fZtdzV@78.40.209.93:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&pbk=h6wsV7rs0TGnwflPY8-tE5P79GEpMf-1biEL1kBc7jU&fp=chrome&sid=f877&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.jade-vault.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 Финляндия
 
-# 🇷🇺 YouTube | DPI
-vless://e11ca047-3e50-469b-aa1a-beb9be0256b2@edgemskt2.appav.online:2083?encryption=none&security=reality&type=grpc&serviceName=UpdateService&sni=ir.ozone.ru&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&fp=chrome&sid=6da16b1335651b38#%F0%9F%87%B7%F0%9F%87%BA%20YouTube%20%7C%20DPI
+# 🇪🇪 Эстония
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.raw-maple.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇪🇪 Эстония
 
-# 🇷🇺 Roblox | DPI
-vless://e11ca047-3e50-469b-aa1a-beb9be0256b2@edgemskt2.appav.online:2083?encryption=none&security=reality&type=grpc&serviceName=UpdateService&sni=ir.ozone.ru&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&fp=chrome&sid=6da16b1335651b38#%F0%9F%87%B7%F0%9F%87%BA%20Roblox%20%7C%20DPI
+# 🇵🇱 Польша
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.bold-stone.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇵🇱 Польша
 
-# 📶 LTE Bypass (рабочий указатель, копия #3)
-trojan://fmxwUmkuRgnozLdJ5_dCo9HBx4Ko-UAk@46.8.209.56:8443?security=reality&sni=sso.passport.yandex.ru&fp=chrome&pbk=5-gBUSFmJN5u_zZmqvLeQJq6yhhXLV1qBqyNhiRFfik&sid=3537ce1e64a64124&type=grpc&serviceName=UpdateService#%F0%9F%93%B6%20LTE%20Bypass
+# 🇷🇺 Россия
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.iron-coral.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇷🇺 Россия
 
-# 🇷🇺 LTE | #1
-trojan://EcN1z5fXsLbAb5wesZ_rgxGTNDxWw_VC@c4b.appav.net:7443?security=reality&sni=ir.ozone.ru&fp=chrome&pbk=HQtcSpijS7bh70dLQ273lpItvMptn6xys4DGnP5u5G8&sid=d6c8cbeed2b10851&type=grpc&serviceName=UpdateService#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%7C%20%231
+# 🇳🇱 Нидерланды
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.wide-creek.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇳🇱 Нидерланды
 
-# 🇩🇪 LTE | #2
-trojan://e6_sRCvhm5fFch6sm8a1WWUw1ng7LBdX@46.8.209.56:443?security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=kA6n7cPVqZPLan4eCU1o8k5_YRkluWvhpxJmk4NtVwg&sid=2ba67d65e9814b4d&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20LTE%20%7C%20%232
+# 🇫🇮 Финляндия | Игровой 1
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.jade-vault.test-cdn-kkk.com:8443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 Финляндия | Игровой 1
 
-# 🇩🇪 LTE | #3 (оригинальный)
-trojan://fmxwUmkuRgnozLdJ5_dCo9HBx4Ko-UAk@46.8.209.56:8443?security=reality&sni=sso.passport.yandex.ru&fp=chrome&pbk=5-gBUSFmJN5u_zZmqvLeQJq6yhhXLV1qBqyNhiRFfik&sid=3537ce1e64a64124&type=grpc&serviceName=UpdateService#%F0%9F%87%A9%F0%9F%87%AA%20LTE%20%7C%20%233
+# 🇪🇪 Эстония | Игровой 2
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.raw-maple.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇪🇪 Эстония | Игровой 2
 
-# 🇷🇺 LTE | #4
-vless://e11ca047-3e50-469b-aa1a-beb9be0256b2@edgemskt2.appav.online:2083?encryption=none&security=reality&type=grpc&serviceName=UpdateService&sni=ir.ozone.ru&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&fp=chrome&sid=6da16b1335651b38#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%7C%20%234
+# 🇸🇪 Швеция | Игровой 3
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.dawn-crown.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇸🇪 Швеция | Игровой 3
+
+# 🇹🇷 Турция
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.pale-raven.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tr.eu-ffast.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇹🇷 Турция
+
+# 🇫🇷 Франция
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.gold-pond.test-cdn-kkk.com:443?encryption=none&security=reality&sni=par.eu-ffast.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇷 Франция
+
+# 🇺🇸 США
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.mint-lance.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇺🇸 США
+
+# 🇬🇧 Великобритания
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.raw-stone.test-cdn-kkk.com:443?encryption=none&security=reality&sni=lon.eu-ffast.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇬🇧 Великобритания
+
+# 🇰🇿 Казахстан
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.soft-blade.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇰🇿 Казахстан
+
+# 📶 LTE Bypass (рабочий)
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.ash-arch.test-cdn-kkk.com:9443?encryption=none&security=reality&sni=eh.vk.com&fp=random&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#📶 LTE Bypass
+
+# 🇫🇮 LTE #1
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.wild-heron.test-cdn-kkk.com:443?encryption=none&security=reality&sni=sun6-21.userapi.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #1
+
+# 🇫🇮 LTE #2
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.dark-blade.test-cdn-kkk.com:443?encryption=none&security=reality&sni=sun6-21.userapi.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #2
+
+# 🇫🇮 LTE #3
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.fast-blade.test-cdn-kkk.com:10167?encryption=none&security=reality&sni=eh.vk.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #3
+
+# 🇫🇮 LTE #4
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.keen-delta.test-cdn-kkk.com:9443?encryption=none&security=reality&sni=ads.x5.ru&fp=random&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #4
+
+# 🇫🇮 LTE #5 (дубль указателя)
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.ash-arch.test-cdn-kkk.com:9443?encryption=none&security=reality&sni=eh.vk.com&fp=random&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #5
+
+# 🇫🇮 LTE #6
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.gold-vale.test-cdn-kkk.com:443?encryption=none&security=reality&sni=io.ozone.ru&fp=99&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #6
+
+# 🇫🇮 LTE #7 (игровой)
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.fast-raven.test-cdn-kkk.com:9443?encryption=none&security=reality&sni=ads.x5.ru&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #7 (игровой)
+
+# 🇫🇮 LTE #8
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.iron-shield.test-cdn-kkk.com:443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=99&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #8
+
+# 🇫🇮 LTE #9
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.grey-finch.test-cdn-kkk.com:8443?encryption=none&security=reality&sni=sun6-21.userapi.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #9
+
+# 🇫🇮 LTE #10
+vless://0edc88f4-5286-4b2c-80f0-949619897688@test.dry-moose.test-cdn-kkk.com:443?encryption=none&security=reality&sni=ads.x5.ru&fp=99&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇫🇮 LTE #10
