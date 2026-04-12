@@ -45,9 +45,6 @@ vless://0edc88f4-5286-4b2c-80f0-949619897688@test.mint-lance.test-cdn-kkk.com:44
 # 🇬🇧 Великобритания
 vless://0edc88f4-5286-4b2c-80f0-949619897688@test.raw-stone.test-cdn-kkk.com:443?encryption=none&security=reality&sni=lon.eu-ffast.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇬🇧 Великобритания
 
-# 🇰🇿 Казахстан
-vless://0edc88f4-5286-4b2c-80f0-949619897688@test.soft-blade.test-cdn-kkk.com:443?encryption=none&security=reality&sni=tradingview.com&fp=qq&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#🇰🇿 Казахстан
-
 # 📶 LTE Bypass (рабочий)
 vless://0edc88f4-5286-4b2c-80f0-949619897688@test.ash-arch.test-cdn-kkk.com:9443?encryption=none&security=reality&sni=eh.vk.com&fp=random&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50&type=tcp&flow=xtls-rprx-vision#📶 LTE Bypass
 
