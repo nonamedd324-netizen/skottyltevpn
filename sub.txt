@@ -7,10 +7,7 @@
 vless://8e63eedf-10b6-445f-a422-d3c0c61c5476@gr2.netelusion.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gr2.netelusion.com&pbk=PKLgeNYzpsS9fx089U2tnqvzBh_epffwTkM9I-jHLBU&fp=chrome&sid=a1f3c7d9e4b8625a&spx=%2F&type=tcp#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%231
 
 # 🇩🇪 Wi-Fi | Германия #2
-vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@rude.organic-cdn.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ru-2.convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=400c3f968745cc18&type=tcp#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%232
-
-# 🇩🇪 Wi-Fi | Германия #3
-vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@de.organic-cdn.net:8443?encryption=none&security=reality&type=grpc&serviceName=de.convexia.net&sni=de.convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%233
+vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@de.organic-cdn.net:8443?encryption=none&security=reality&type=grpc&serviceName=de.convexia.net&sni=de.convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%232
 
 # 🇵🇱 Wi-Fi | Польша
 vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@pl.organic-cdn.net:443?encryption=none&security=reality&type=grpc&serviceName=pl.convexia.net&sni=pl.convexia.net&pbk=MbPlqrWQcfuGrPa462RU1-TvRse4AIm9PkkGHpkTBQE&fp=chrome&sid=563774#🇵🇱%20Wi-Fi%20%7C%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
