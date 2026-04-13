@@ -3,5 +3,28 @@
 #profile-update-interval: 0.30
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
-# 🛠 Проводятся тех. работы
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?security=none&encryption=none#🛠 Проводятся тех. работы
+#profile-title: 🛜 Unlimited VPN
+#announce: ⚡ Лучший безлимитный VPN. Меньше ms — лучше. LTE - Сервера для обхода блокировок мобильного интернета (белых списков).
+#profile-update-interval: 0.30
+#subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
+
+# 🛜 WiFi VPN
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@46.8.209.52:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=helper-test.x5.ru&pbk=tl-y_EBK2pPKhlChEPSYgKrXxrKUWomrQ8X9V8SP0xQ&fp=qq&sid=4acb4c423d47ae19&type=tcp#🛜 WiFi VPN
+
+# 🇫🇷 Wi-Fi | Франция
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@46.8.209.52:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=helper-test.x5.ru&pbk=tl-y_EBK2pPKhlChEPSYgKrXxrKUWomrQ8X9V8SP0xQ&fp=qq&sid=4acb4c423d47ae19&type=tcp#🇫🇷 Wi-Fi | Франция
+
+# 🇫🇮 Wi-Fi | Финляндия
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@1.smart.dns.shitposting.team:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wikipedia.org&pbk=FkAOZqzGUzEYarMVg_ksEKlYRfD4Nz2_OtCuhA5di2s&fp=qq&sid=65fc6512eee9a84a&type=tcp#🇫🇮 Wi-Fi | Финляндия
+
+# 🇨🇿 Wi-Fi | Чехия
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@4.smart.dns.shitposting.team:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gist.github.com&pbk=bVVFXNH0Zzx0_ax-hyArsamtbE5C6R473nIEOx_QKFo&fp=qq&sid=65fc6512eee9a84a&type=tcp#🇨🇿 Wi-Fi | Чехия
+
+# 🇳🇱 Wi-Fi | Нидерланды
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@2.nl.dns.shitposting.team:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tag.a.mts.ru&pbk=bVVFXNH0Zzx0_ax-hyArsamtbE5C6R473nIEOx_QKFo&fp=chrome&sid=65fc6512eee9a84a&type=tcp#🇳🇱 Wi-Fi | Нидерланды
+
+# 📶 LTE Bypass
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@46.8.209.52:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=helper-test.x5.ru&pbk=tl-y_EBK2pPKhlChEPSYgKrXxrKUWomrQ8X9V8SP0xQ&fp=qq&sid=4acb4c423d47ae19&type=tcp#📶 LTE Bypass
+
+# 🇷🇺 LTE | #1
+vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@46.8.209.52:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=helper-test.x5.ru&pbk=tl-y_EBK2pPKhlChEPSYgKrXxrKUWomrQ8X9V8SP0xQ&fp=qq&sid=4acb4c423d47ae19&type=tcp#🇷🇺 LTE | #1
