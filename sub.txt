@@ -3,11 +3,6 @@
 #profile-update-interval: 0.30
 #subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
 
-#profile-title: 🛜 Unlimited VPN
-#announce: ⚡ Лучший безлимитный VPN. Меньше ms — лучше. LTE - Сервера для обхода блокировок мобильного интернета (белых списков).
-#profile-update-interval: 0.30
-#subscription-userinfo: upload=19327352832; download=0; total=0; expire=1893445200
-
 # 🛜 WiFi VPN
 vless://c88e4abe-ad18-4140-bbd0-9665a353ac48@46.8.209.52:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=helper-test.x5.ru&pbk=tl-y_EBK2pPKhlChEPSYgKrXxrKUWomrQ8X9V8SP0xQ&fp=qq&sid=4acb4c423d47ae19&type=tcp#🛜 WiFi VPN
 
