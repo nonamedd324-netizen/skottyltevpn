@@ -24,5 +24,8 @@ vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ru.organic-cdn.net:443?encryption=n
 # 🇺🇸 Wi-Fi | Gemini
 vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇺🇸%20Wi-Fi%20%7C%20Gemini
 
-# Глушилки 1
+# 🇷🇺 Обход Глушилок | #1
 vless://b15cccd5-3975-417e-86cb-d78b4187f935@51.250.98.32:8081?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=TKFqMVR-LvGGf_Sr2N1mBEXC3t2563eU0V-NELdyV3M&fp=edge&sid=8975&type=tcp#🇷🇺%20Обход%20Глушилок%20%7C%20%231
+
+# 🇷🇺 Обход Глушилок | #2
+vless://534b96cc-fd60-4cd3-b00f-e7c14a4c0b39@91.207.183.15:21080?encryption=none&type=tcp&security=reality&pbk=zqBvkGPSZHSEJwyKUVyvad9PBHuKt15rcayd8IWrj0s&fp=chrome&sni=ya.ru&sid=f9fa8e17&spx=%2F&fragment=100-200#🇷🇺%20Обход%20Глушилок%20%7C%20%232
