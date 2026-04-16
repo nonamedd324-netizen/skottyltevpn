@@ -4,12 +4,9 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=2524608000
 
 # 🇩🇪 Wi-Fi | Германия #1
-vless://8e63eedf-10b6-445f-a422-d3c0c61c5476@gr2.netelusion.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gr2.netelusion.com&pbk=PKLgeNYzpsS9fx089U2tnqvzBh_epffwTkM9I-jHLBU&fp=chrome&sid=a1f3c7d9e4b8625a&spx=%2F&type=tcp#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%231
+vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@de.organic-cdn.net:8443?encryption=none&security=reality&type=grpc&serviceName=de.convexia.net&sni=de.convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%231
 
-# 🇩🇪 Wi-Fi | Германия #2
-vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@de.organic-cdn.net:8443?encryption=none&security=reality&type=grpc&serviceName=de.convexia.net&sni=de.convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef#🇩🇪%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%232
-
-# 🇵🇱 Wi-Fi | Польша
+# 🇵🇱 Wi-Fi | Польша #1
 vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@pl.organic-cdn.net:443?encryption=none&security=reality&type=grpc&serviceName=pl.convexia.net&sni=pl.convexia.net&pbk=MbPlqrWQcfuGrPa462RU1-TvRse4AIm9PkkGHpkTBQE&fp=chrome&sid=563774#🇵🇱%20Wi-Fi%20%7C%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
 
 # 🇫🇷 Wi-Fi | Франция #1
@@ -24,26 +21,17 @@ vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ru.organic-cdn.net:443?encryption=n
 # 🇺🇸 Wi-Fi | Gemini
 vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇺🇸%20Wi-Fi%20%7C%20Gemini
 
-# 🇷🇺 Антиглушилка #1
-vless://b15cccd5-3975-417e-86cb-d78b4187f935@51.250.98.32:8081?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=TKFqMVR-LvGGf_Sr2N1mBEXC3t2563eU0V-NELdyV3M&fp=edge&sid=8975&type=tcp#🇷🇺%20Антиглушилка%20%231
+# 🇷🇺 Антиглушилка #1 (бывшая #3)
+vless://35f275a3-72e0-0348-a1b8-512449b3bd07@ads.convix-kino.com:443?security=reality&encryption=none&pbk=Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru#🇷🇺%20Антиглушилка%20%231
 
-# 🇷🇺 Антиглушилка #2
-vless://534b96cc-fd60-4cd3-b00f-e7c14a4c0b39@91.207.183.15:21080?encryption=none&type=tcp&security=reality&pbk=zqBvkGPSZHSEJwyKUVyvad9PBHuKt15rcayd8IWrj0s&fp=chrome&sni=ya.ru&sid=f9fa8e17&spx=%2F&fragment=100-200#🇷🇺%20Антиглушилка%20%232
+# 🇷🇺 Антиглушилка #2 (бывшая #4)
+vless://9cf4b325-2ca5-4d0b-9505-c539b7b9992c@ru2.spidermanvpn.vip:9443?mode=auto&path=%2Fapi%2Fv2%2Fupdates&security=reality&encryption=none&extra=%7Bxmux%3D%7BcMaxReuseTimes%3D0.0%2C%20maxConcurrency%3D16-32%2C%20maxConnections%3D0.0%2C%20hKeepAlivePeriod%3D0.0%2C%20hMaxRequestTimes%3D600-900%2C%20hMaxReusableSecs%3D1800-3000%7D%2C%20headers%3D%7B%7D%2C%20noGRPCHeader%3Dfalse%2C%20xPaddingBytes%3D100-1000%2C%20scMaxEachPostBytes%3D1000000.0%2C%20scMinPostsIntervalMs%3D30.0%2C%20scStreamUpServerSecs%3D20-80%7D&pbk=z1R3LseKD-dB3BgC286Zf1r_bSAxz3KjcDjcg0NtagY&fp=chrome&spx=%2F&type=xhttp&sni=help.max.ru&sid=02403d1e9d034251#🇷🇺%20Антиглушилка%20%232
 
-# 🇷🇺 Антиглушилка #3
-vless://35f275a3-72e0-0348-a1b8-512449b3bd07@ads.convix-kino.com:443?security=reality&encryption=none&pbk=Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru#🇷🇺%20Антиглушилка%20%233
+# 🇷🇺 Антиглушилка #3 (бывшая #5)
+vless://35f275a3-72e0-0210-a1b8-512449b3bd07@ads.convix-kino.com:443?security=reality&encryption=none&pbk=Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru#🇷🇺%20Антиглушилка%20%233
 
-# 🇷🇺 Антиглушилка #4
-vless://9cf4b325-2ca5-4d0b-9505-c539b7b9992c@ru2.spidermanvpn.vip:9443?mode=auto&path=%2Fapi%2Fv2%2Fupdates&security=reality&encryption=none&extra=%7Bxmux%3D%7BcMaxReuseTimes%3D0.0%2C%20maxConcurrency%3D16-32%2C%20maxConnections%3D0.0%2C%20hKeepAlivePeriod%3D0.0%2C%20hMaxRequestTimes%3D600-900%2C%20hMaxReusableSecs%3D1800-3000%7D%2C%20headers%3D%7B%7D%2C%20noGRPCHeader%3Dfalse%2C%20xPaddingBytes%3D100-1000%2C%20scMaxEachPostBytes%3D1000000.0%2C%20scMinPostsIntervalMs%3D30.0%2C%20scStreamUpServerSecs%3D20-80%7D&pbk=z1R3LseKD-dB3BgC286Zf1r_bSAxz3KjcDjcg0NtagY&fp=chrome&spx=%2F&type=xhttp&sni=help.max.ru&sid=02403d1e9d034251#🇷🇺%20Антиглушилка%20%234
+# 🇷🇺 Антиглушилка #4 (бывшая #7)
+vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇷🇺%20Антиглушилка%20%234
 
-# 🇷🇺 Антиглушилка #5
-vless://35f275a3-72e0-0210-a1b8-512449b3bd07@ads.convix-kino.com:443?security=reality&encryption=none&pbk=Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru#🇷🇺%20Антиглушилка%20%235
-
-# 🇷🇺 Антиглушилка #6
-vless://8e63eedf-10b6-445f-a422-d3c0c61c5476@fn1.netelusion.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fn1.netelusion.com&pbk=OI63mM1y79UWHCGyigQxC3vt_WzhFp60jybRoJpzj28&fp=chrome&sid=7f2a1c9e4b3d8657&spx=%2F&type=tcp#🇷🇺%20Антиглушилка%20%236
-
-# 🇷🇺 Антиглушилка #7
-vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇷🇺%20Антиглушилка%20%237
-
-# 🇷🇺 Антиглушилка #8
-vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇷🇺%20Антиглушилка%20%238
+# 🇷🇺 Антиглушилка #5 (бывшая #8)
+vless://1b6e4974-5ec6-4634-a22c-621c9e03528a@ruus.organic-cdn.net:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=convexia.net&pbk=jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo&fp=chrome&sid=fe20ae13e9ef&type=tcp#🇷🇺%20Антиглушилка%20%235
