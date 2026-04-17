@@ -1,0 +1,213 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": ["http", "tls", "quic"],
+        "enabled": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru.organic-cdn.net",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "EMgNyAW6z8-eamAPLwVgd509TqYRg8gvupUzmZv_4Uc",
+          "serverName": "ru.convexia.net",
+          "shortId": "31ce9f"
+        }
+      },
+      "tag": "server_auto"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de.organic-cdn.net",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo",
+          "serverName": "de.convexia.net",
+          "shortId": "fe20ae13e9ef"
+        },
+        "grpcSettings": {
+          "serviceName": "de.convexia.net"
+        }
+      },
+      "tag": "server_germany"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pl.organic-cdn.net",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "MbPlqrWQcfuGrPa462RU1-TvRse4AIm9PkkGHpkTBQE",
+          "serverName": "pl.convexia.net",
+          "shortId": "563774"
+        },
+        "grpcSettings": {
+          "serviceName": "pl.convexia.net"
+        }
+      },
+      "tag": "server_poland"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ads.convix-kino.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "35f275a3-72e0-0348-a1b8-512449b3bd07"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE",
+          "serverName": "ads.x5.ru",
+          "shortId": ""
+        }
+      },
+      "tag": "server_antiglush1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru2.spidermanvpn.vip",
+            "port": 9443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "9cf4b325-2ca5-4d0b-9505-c539b7b9992c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "z1R3LseKD-dB3BgC286Zf1r_bSAxz3KjcDjcg0NtagY",
+          "serverName": "help.max.ru",
+          "shortId": "02403d1e9d034251"
+        },
+        "xhttpSettings": {
+          "mode": "stream-one",
+          "path": "/api/v2/updates"
+        }
+      },
+      "tag": "server_antiglush2"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "balancer",
+        "selector": [
+          "server_auto",
+          "server_germany",
+          "server_poland",
+          "server_antiglush1",
+          "server_antiglush2"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "expected": 2
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": ["socks"],
+        "balancerTag": "balancer"
+      }
+    ]
+  }
+}
