@@ -13,13 +13,10 @@ vless://b960ed61-d7b0-03ee-a39f-484726e2ad66@185.175.44.39:443?security=reality&
 vless://ae304f4e-20d2-4fee-b55a-c37c14c1eaa0@213.165.39.59:443?security=reality&encryption=none&pbk=7DBnPhcXc7B8dErqp5XK9JAym1GfFtXSb1Ic53CX3g&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com&sid=0fda#%F0%9F%87%B3%F0%9F%87%B1%20Wi-Fi%20%7C%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B
 
 # 🇵🇱 Wi-Fi | Польша
-vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@162.120.16.7:443?security=reality&encryption=none&pbk=4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=aabbccdd#%F0%9F%87%B5%F0%9F%87%B1%20Wi-Fi%20%7C%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
+vless://caf9d5f7-77f2-4033-823e-d55a1996fc4a@95.85.248.67:30047?security=none&encryption=none&headerType=none&fp=chrome&type=ws&path=%2F&host=host#%F0%9F%87%B5%F0%9F%87%B1%20Wi-Fi%20%7C%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
 
 # 🇺🇸 Wi-Fi | США
-vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@162.120.16.7:443?security=reality&encryption=none&pbk=4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=aabbccdd#%F0%9F%87%BA%F0%9F%87%B8%20Wi-Fi%20%7C%20%D0%A1%D0%A8%D0%90
-
-# Telegram
-vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@reserve-2.harknmav.fun:443?security=reality&encryption=none&pbk=yKKs5x3f2ZGuPSnFlWPvskiQywmjSvu2CI06Jw67UyI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa7f996dd0e9#Wi-Fi%2FLTE%20%7C%20Telegram
+vless://caf9d5f7-77f2-4033-823e-d55a1996fc4a@95.85.248.67:30047?security=none&encryption=none&headerType=none&fp=chrome&type=ws&path=%2F&host=host#%F0%9F%87%BA%F0%9F%87%B8%20Wi-Fi%20%7C%20%D0%A1%D0%A8%D0%90
 
 # 🇸🇪 LTE #1
 vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@reserve-2.harknmav.fun:443?security=reality&encryption=none&pbk=yKKs5x3f2ZGuPSnFlWPvskiQywmjSvu2CI06Jw67UyI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa7f996dd0e9#%F0%9F%87%B8%F0%9F%87%AA%20LTE%20%231
