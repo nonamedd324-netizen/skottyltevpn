@@ -3,6 +3,9 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=2524608000
 
+# 🇫🇷 Wi-Fi/LTE | Ультра быстрый ⚡
+vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@reserve-2.harknmav.fun:443?security=reality&encryption=none&pbk=yKKs5x3f2ZGuPSnFlWPvskiQywmjSvu2CI06Jw67UyI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa7f996dd0e9#%F0%9F%87%AB%F0%9F%87%B7%20Wi-Fi%2FLTE%20%7C%20%D0%A3%D0%BB%D1%8C%D1%82%D1%80%D0%B0%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9%20%E2%9A%A1
+
 # 🇩🇪 Wi-Fi | Германия
 vless://b960ed61-d7b0-03ee-a39f-484726e2ad66@185.175.44.39:443?security=reality&encryption=none&pbk=HsKBZVsE7puWHs8AzpHhf5eEwj0imv51at6GRRmLs0A&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=eu.bridge.raw-srv.org&sid=54150a1d4a31894b#%F0%9F%87%A9%F0%9F%87%AA%20Wi-Fi%20%7C%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F
 
@@ -15,6 +18,9 @@ vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@162.120.16.7:443?security=reality&e
 # 🇺🇸 Wi-Fi | США
 vless://7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2@162.120.16.7:443?security=reality&encryption=none&pbk=4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=aabbccdd#%F0%9F%87%BA%F0%9F%87%B8%20Wi-Fi%20%7C%20%D0%A1%D0%A8%D0%90
 
+# Telegram
+vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@reserve-2.harknmav.fun:443?security=reality&encryption=none&pbk=yKKs5x3f2ZGuPSnFlWPvskiQywmjSvu2CI06Jw67UyI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa7f996dd0e9#Wi-Fi%2FLTE%20%7C%20Telegram
+
 # 🇸🇪 LTE #1
 vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@reserve-2.harknmav.fun:443?security=reality&encryption=none&pbk=yKKs5x3f2ZGuPSnFlWPvskiQywmjSvu2CI06Jw67UyI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa7f996dd0e9#%F0%9F%87%B8%F0%9F%87%AA%20LTE%20%231
 
@@ -23,3 +29,23 @@ vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@all95-2.harknmav.fun:443?security=r
 
 # 🇸🇪 LTE #3
 vless://d860f2e8-456b-4cf6-9b69-8892c6f70c57@all95.harknmav.fun:443?security=reality&encryption=none&pbk=sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=cfdbaa7f996dd0e9#%F0%9F%87%B8%F0%9F%87%AA%20LTE%20%233
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
