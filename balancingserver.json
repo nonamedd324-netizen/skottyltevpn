@@ -1,213 +1,221 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
-  "inbounds": [
-    {
-      "listen": "127.0.0.1",
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "sniffing": {
-        "destOverride": ["http", "tls", "quic"],
-        "enabled": true
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru.organic-cdn.net",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "EMgNyAW6z8-eamAPLwVgd509TqYRg8gvupUzmZv_4Uc",
-          "serverName": "ru.convexia.net",
-          "shortId": "31ce9f"
-        }
-      },
-      "tag": "server_auto"
+    "remarks": "🇷🇺 LTE/Wi-Fi | Авто",
+    "log": {
+        "loglevel": "warning"
     },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "de.organic-cdn.net",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "jydkvpm6P7x3p5Ueco8tMR9b3XrbwRSyr445QpWrjTo",
-          "serverName": "de.convexia.net",
-          "shortId": "fe20ae13e9ef"
+    "dns": {
+        "hosts": {
+            "domain:googleapis.cn": "googleapis.com"
         },
-        "grpcSettings": {
-          "serviceName": "de.convexia.net"
-        }
-      },
-      "tag": "server_germany"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pl.organic-cdn.net",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1b6e4974-5ec6-4634-a22c-621c9e03528a"
-              }
-            ]
-          }
+        "queryStrategy": "UseIPv4",
+        "servers": [
+            "1.1.1.1",
+            "8.8.8.8",
+            "https://1.1.1.1/dns-query"
         ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "MbPlqrWQcfuGrPa462RU1-TvRse4AIm9PkkGHpkTBQE",
-          "serverName": "pl.convexia.net",
-          "shortId": "563774"
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "userLevel": 8
+            },
+            "sniffing": {
+                "destOverride": ["http", "tls", "quic"],
+                "enabled": true
+            },
+            "tag": "socks-in"
         },
-        "grpcSettings": {
-          "serviceName": "pl.convexia.net"
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "userLevel": 8
+            },
+            "sniffing": {
+                "destOverride": ["http", "tls", "quic"],
+                "enabled": true
+            },
+            "tag": "http-in"
         }
-      },
-      "tag": "server_poland"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ads.convix-kino.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "35f275a3-72e0-0348-a1b8-512449b3bd07"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE",
-          "serverName": "ads.x5.ru",
-          "shortId": ""
-        }
-      },
-      "tag": "server_antiglush1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru2.spidermanvpn.vip",
-            "port": 9443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9cf4b325-2ca5-4d0b-9505-c539b7b9992c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "z1R3LseKD-dB3BgC286Zf1r_bSAxz3KjcDjcg0NtagY",
-          "serverName": "help.max.ru",
-          "shortId": "02403d1e9d034251"
-        },
-        "xhttpSettings": {
-          "mode": "stream-one",
-          "path": "/api/v2/updates"
-        }
-      },
-      "tag": "server_antiglush2"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
-    }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "balancers": [
-      {
-        "tag": "balancer",
-        "selector": [
-          "server_auto",
-          "server_germany",
-          "server_poland",
-          "server_antiglush1",
-          "server_antiglush2"
-        ],
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "expected": 2
-          }
-        }
-      }
     ],
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": ["socks"],
-        "balancerTag": "balancer"
-      }
-    ]
-  }
+    "outbounds": [
+        {
+            "tag": "NL_1",
+            "protocol": "vless",
+            "settings": {
+                "vnext": [{
+                    "address": "vpn.tgflovv.ru",
+                    "port": 443,
+                    "users": [{
+                        "id": "56781801-80a2-4896-8d07-5162062a65a0",
+                        "encryption": "none",
+                        "level": 8
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "serverName": "vpn.tgflovv.ru",
+                    "fingerprint": "chrome"
+                },
+                "wsSettings": {
+                    "path": "/EXfE3H8UT1R6TWv9v",
+                    "headers": { "Host": "vpn.tgflovv.ru" }
+                }
+            }
+        },
+        {
+            "tag": "SE_1",
+            "protocol": "vless",
+            "settings": {
+                "vnext": [{
+                    "address": "104.18.3.108",
+                    "port": 8443,
+                    "users": [{
+                        "id": "fc625795-792d-4d9d-9d38-bffe59467d2d",
+                        "encryption": "none",
+                        "level": 8
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "serverName": "daluan.eu.org"
+                },
+                "wsSettings": {
+                    "headers": { "Host": "daluan.eu.org" }
+                }
+            }
+        },
+        {
+            "tag": "PL_Reality",
+            "protocol": "vless",
+            "settings": {
+                "vnext": [{
+                    "address": "144.31.4.119",
+                    "port": 443,
+                    "users": [{
+                        "id": "obhJwSMS3fZtdzV",
+                        "encryption": "none",
+                        "flow": "xtls-rprx-vision",
+                        "level": 8
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "reality",
+                "realitySettings": {
+                    "serverName": "www.nvidia.com",
+                    "fingerprint": "chrome",
+                    "show": false,
+                    "publicKey": "WWfS06v1s10FKQSlSXV5NzF9ZfVkyJOg30taggzazwI",
+                    "shortId": "f877",
+                    "spiderX": "/"
+                }
+            }
+        },
+        {
+            "tag": "RU_LTE",
+            "protocol": "vless",
+            "settings": {
+                "vnext": [{
+                    "address": "cluster-russia-1.firstvideocdn.ru",
+                    "port": 52006,
+                    "users": [{
+                        "id": "75807638-6f19-07d0-ae08-38492ee85c88",
+                        "encryption": "none",
+                        "flow": "xtls-rprx-vision",
+                        "level": 8
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "SE_Reality",
+            "protocol": "vless",
+            "settings": {
+                "vnext": [{
+                    "address": "5.129.215.152",
+                    "port": 443,
+                    "users": [{
+                        "id": "bbfa1a8d-e869-419f-855e-3d270e5d8cb3",
+                        "encryption": "none",
+                        "flow": "xtls-rprx-vision",
+                        "level": 8
+                    }]
+                }]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "reality",
+                "realitySettings": {
+                    "serverName": "yahoo.com",
+                    "fingerprint": "chrome",
+                    "show": false,
+                    "publicKey": "gDaL_AWUClSUraz9fpTlDwKXCS-JydQJX2XQGpEjLHQ",
+                    "shortId": "59c6",
+                    "spiderX": "/"
+                }
+            }
+        },
+        {
+            "tag": "direct",
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIP"
+            }
+        },
+        {
+            "tag": "block",
+            "protocol": "blackhole",
+            "settings": {}
+        }
+    ],
+    "observatory": {
+        "subjectSelector": ["NL_1", "SE_1", "PL_Reality", "RU_LTE", "SE_Reality"],
+        "probeUrl": "https://ya.ru/generate_204",
+        "probeInterval": "30s"
+    },
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "balancers": [
+            {
+                "tag": "balancer",
+                "selector": ["NL_1", "SE_1", "PL_Reality", "RU_LTE", "SE_Reality"],
+                "strategy": {
+                    "type": "leastPing"
+                }
+            }
+        ],
+        "rules": [
+            {
+                "type": "field",
+                "outboundTag": "direct",
+                "port": 53
+            },
+            {
+                "type": "field",
+                "network": "tcp,udp",
+                "balancerTag": "balancer"
+            }
+        ]
+    }
 }
