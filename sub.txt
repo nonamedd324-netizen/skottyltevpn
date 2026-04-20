@@ -17,3 +17,9 @@ vless://obhJwSMS3fZtdzV@185.238.191.49:443?security=reality&encryption=none&pbk=
 
 # 🇸🇪 LTE #1
 vless://35f275a3-72e0-0348-a1b8-512449b3bd07@ads.convix-kino.com:443?security=reality&encryption=none&pbk=Prr6JvDC5zYwU0lKszA8VpWU9mglYdRAW2VlnCL83TE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru#%F0%9F%87%B8%F0%9F%87%AA%20LTE%20%231
+
+# 🇸🇪 LTE #2
+vless://79fb3c7b-b910-4744-9960-330356810c62@ya1.harknmav.fun:443?security=reality&encryption=none&pbk=bzX8l1h-ze1eML9stiVhe0DsotjtW4WOkjkk4eri9BM&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=dfdbaa7f996dd0e9#%F0%9F%87%B8%F0%9F%87%AA%20LTE%20%232
+
+# 🇸🇪 LTE #3
+vless://79fb3c7b-b910-4744-9960-330356810c62@hoster.harknmav.fun:443?security=reality&encryption=none&pbk=bNoi4o9Hj8HJhTDz1yX1oJAb1yox76FwDId8hMwOHgg&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=ffdbaa5f996dd0e9#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%7C%20%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D1%8B%D0%B9
