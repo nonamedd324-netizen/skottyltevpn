@@ -1,7 +1,7 @@
 #profile-title: 🛜 Unlimited VPN
 #announce: ⚡ Бесплатная версия VPN. Меньше ms — лучше.
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1641139200
+#subscription-userinfo: upload=0; download=0; total=0; expire=1798754400
 
 # 🇳🇱 Нидерланды #1 (VLESS WS TLS)
 vless://56781801-80a2-4896-8d07-5162062a65a0@vpn.tgflovv.ru:443?security=tls&encryption=none&fp=chrome&type=ws&path=%2FEXfE3H8UT1R6TWv9v&host=vpn.tgflovv.ru&sni=vpn.tgflovv.ru&alpn=http%2F1.1#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%231
