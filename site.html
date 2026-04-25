@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited VPN</title>
+    <style>
+        :root {
+            --bg: #121212; /* Темно-серый фон вместо черного */
+            --card-bg: #1c1c1c; /* Графитовый фон для блоков */
+            --btn-bg: #252525; /* Светло-серый для кнопок */
+            --text: #ffffff;
+            --text-dim: #a0a0a0;
+            --border: #333333;
+            --border-hover: #555555;
+            --status-green: #00ff00;
+            --anim-speed: 0.3s;
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px 24px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* Переключатель языков */
+        .lang-switcher {
+            position: absolute;
+            top: 20px;
+            left: 24px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .lang-btn {
+            background: var(--btn-bg);
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            padding: 5px 12px;
+            font-size: 11px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.2s;
+            font-weight: bold;
+        }
+
+        .lang-btn.active {
+            border-color: #ffffff;
+            color: #ffffff;
+            background: #333;
+        }
+
+        /* Шапка */
+        .header {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .header-sub {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+        }
+
+        .header-brand {
+            font-size: 26px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        /* Карточка данных */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .user-type {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            background: var(--status-green);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--status-green);
+        }
+
+        .info-grid {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+        }
+
+        .info-item label {
+            display: block;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .info-item span { font-weight: 700; font-size: 16px; }
+
+        .section-title {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 12px;
+            font-weight: 800;
+        }
+
+        /* Выбор системы */
+        .selector-wrapper { position: relative; }
+
+        .selector {
+            background: var(--btn-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+
+        .selector:hover { border-color: var(--border-hover); background: #2d2d2d; }
+
+        .dropdown {
+            position: absolute;
+            top: 100%; left: 0; right: 0;
+            background: #252525;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            margin-top: 8px;
+            z-index: 100;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(-10px);
+            pointer-events: none;
+            transition: all var(--anim-speed) cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .dropdown.open {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .dropdown div {
+            padding: 14px 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+        }
+
+        .dropdown div:hover {
+            background: #333;
+            padding-left: 22px;
+        }
+
+        /* Кнопки скачивания */
+        .dl-list { display: grid; gap: 8px; margin-top: 12px; }
+        .dl-link {
+            background: var(--btn-bg);
+            color: #ffffff;
+            border: 1px solid var(--border);
+            text-align: center;
+            padding: 16px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 800;
+            transition: all 0.2s;
+        }
+        .dl-link:hover { border-color: #ffffff; background: #2d2d2d; }
+        .dl-link:active { transform: scale(0.97); }
+
+        /* Быстрые кнопки */
+        .apps-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .app-card {
+            background: var(--btn-bg);
+            border: 1px solid var(--border);
+            padding: 22px;
+            border-radius: 16px;
+            text-align: center;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .app-card:hover { border-color: var(--border-hover); background: #2d2d2d; }
+        .app-card:active { transform: scale(0.95); }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switcher">
+        <button class="lang-btn active" onclick="setLang('ru')">RU</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+
+    <div class="header">
+        <div class="header-sub">High-Speed Connection</div>
+        <div class="header-brand">Unlimited VPN</div>
+    </div>
+
+    <div class="card">
+        <div class="user-type">Premium</div>
+        <div class="status">
+            <div class="status-dot"></div> <span id="statusTxt">Активно</span>
+        </div>
+        <div class="info-grid">
+            <div class="info-item">
+                <label id="lblExp">Истекает</label>
+                <span>01.01.2030</span>
+            </div>
+            <div class="info-item" style="text-align: right;">
+                <label id="lblTraffic">Трафик</label>
+                <span id="valTraffic">Безлимит</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title" id="titleOs">Платформа</div>
+    <div class="selector-wrapper">
+        <div class="selector" onclick="toggleMenu()">
+            <span id="osSel">Выберите систему</span>
+            <span id="arrow" style="transition: transform 0.3s;">▼</span>
+        </div>
+        <div id="osMenu" class="dropdown">
+            <div onclick="showDl('Windows')">Windows</div>
+            <div onclick="showDl('Android')">Android</div>
+            <div onclick="showDl('iOS')">iOS / iPhone</div>
+            <div onclick="showDl('macOS')">macOS</div>
+        </div>
+    </div>
+    <div id="dlBox" class="dl-list" style="display:none;"></div>
+
+    <div class="section-title" id="titleFast" style="margin-top: 30px;">Быстрый запуск</div>
+    <div class="apps-row">
+        <div class="app-card" onclick="openApp('happ')">Happ</div>
+        <div class="app-card" onclick="openApp('v2raytun')">V2RayTun</div>
+    </div>
+</div>
+
+<script>
+    const SUB = "https://u.to/OZaIIg";
+    let lang = 'ru';
+
+    const t = {
+        ru: { status: "Активно", exp: "Истекает", traffic: "Трафик", valT: "Безлимит", os: "Платформа", sel: "Выберите систему", fast: "Быстрый запуск", dl: "Скачать" },
+        en: { status: "Active", exp: "Expires", traffic: "Traffic", valT: "Unlimited", os: "Platform", sel: "Select system", fast: "Quick Launch", dl: "Download" }
+    };
+
+    function setLang(l) {
+        lang = l;
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.innerText.toLowerCase() === l));
+        document.getElementById('statusTxt').innerText = t[l].status;
+        document.getElementById('lblExp').innerText = t[l].exp;
+        document.getElementById('lblTraffic').innerText = t[l].traffic;
+        document.getElementById('valTraffic').innerText = t[l].valT;
+        document.getElementById('titleOs').innerText = t[l].os;
+        document.getElementById('osSel').innerText = t[l].sel;
+        document.getElementById('titleFast').innerText = t[l].fast;
+    }
+
+    function toggleMenu() {
+        const m = document.getElementById('osMenu');
+        m.classList.toggle('open');
+        document.getElementById('arrow').style.transform = m.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0)';
+    }
+
+    function showDl(os) {
+        document.getElementById('osMenu').classList.remove('open');
+        document.getElementById('arrow').style.transform = 'rotate(0)';
+        document.getElementById('osSel').innerText = os;
+        const box = document.getElementById('dlBox');
+        box.innerHTML = '';
+        box.style.display = 'grid';
+
+        const links = {
+            'Windows': [{ n: 'Happ', u: 'https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe' }, { n: 'V2RayTun', u: 'https://storage.v2raytun.com/v2RayTun_Setup.exe' }],
+            'Android': [{ n: 'Happ', u: 'https://play.google.com/store/apps/details?id=com.happproxy' }, { n: 'V2RayTun', u: 'https://play.google.com/store/apps/details?id=com.v2raytun.android' }],
+            'iOS': [{ n: 'Happ', u: 'https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973' }],
+            'macOS': [{ n: 'Happ', u: 'https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg' }]
+        };
+
+        links[os].forEach(i => {
+            const a = document.createElement('a');
+            a.href = i.u;
+            a.className = 'dl-link';
+            a.innerText = `${t[lang].dl} ${i.n}`;
+            box.appendChild(a);
+        });
+    }
+
+    function openApp(a) {
+        window.location.href = (a === 'happ' ? 'happ://add/' : 'v2raytun://import/') + SUB;
+    }
+
+    window.onclick = (e) => {
+        if (!e.target.closest('.selector-wrapper')) {
+            document.getElementById('osMenu').classList.remove('open');
+            document.getElementById('arrow').style.transform = 'rotate(0)';
+        }
+    }
+</script>
+
+</body>
+</html>
