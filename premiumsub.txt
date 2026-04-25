@@ -28,7 +28,7 @@ vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.bold-stone.test-cdn-kkk.com:44
 vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.vast-mesa.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B7%F0%9F%87%BA%20YouTube
 
 # 🇷🇺 Telegram
-vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.vast-mesa.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B7%F0%9F%87%BA%20YouTube
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.bear-grove.test-cdn-kkk.com:9443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%B7%F0%9F%87%BA%20Telegram
 
 # 🇷🇺 Discord
 vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.bear-grove.test-cdn-kkk.com:9443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%B7%F0%9F%87%BA%20Discord
