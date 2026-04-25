@@ -1,0 +1,88 @@
+#profile-title: 🛜 Unlimited VPN
+#announce: ⚡ Лучший безлимитный VPN. Меньше ms — лучше.
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=2524608000
+
+# 🇩🇪 Wi-Fi АВТО
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.bear-grove.test-cdn-kkk.com:9443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%A9%F0%9F%87%AA%20Wi-Fi%20%D0%90%D0%92%D0%A2%D0%9E
+
+# 🇫🇮 LTE АВТО
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.dry-moose.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%D0%90%D0%92%D0%A2%D0%9E
+
+# 🇩🇪 Германия 🇩🇪
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%F0%9F%87%A9%F0%9F%87%AA
+
+# 🇸🇪 Швеция 🇸🇪
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.vast-mesa.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B8%F0%9F%87%AA%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F%20%F0%9F%87%B8%F0%9F%87%AA
+
+# 🇫🇮 Финляндия 🇫🇮
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.wide-frost.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%F0%9F%87%AB%F0%9F%87%AE
+
+# 🇪🇪 Эстония
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.raw-maple.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AA%F0%9F%87%AA%20%D0%AD%D1%81%D1%82%D0%BE%D0%BD%D0%B8%D1%8F
+
+# 🇵🇱 Польша
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.bold-stone.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B5%F0%9F%87%B1%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0
+
+# 🇷🇺 Россия 🇷🇺
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.iron-coral.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%F0%9F%87%B7%F0%9F%87%BA
+
+# 🇳🇱 Нидерланды 🇳🇱
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.red-blaze.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%F0%9F%87%B3%F0%9F%87%B1
+
+# 🇹🇷 Турция 🇹🇷
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.free-marsh.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tr.eu-ffast.com&sid=50#%F0%9F%87%B9%F0%9F%87%B7%20%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F%20%F0%9F%87%B9%F0%9F%87%B7
+
+# 🇺🇸 США 🇺🇸
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.mint-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%20%F0%9F%87%BA%F0%9F%87%B8
+
+# 🇫🇷 Франция 🇫🇷
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.gold-pond.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=par.eu-ffast.com&sid=50#%F0%9F%87%AB%F0%9F%87%B7%20%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20%F0%9F%87%AB%F0%9F%87%B7
+
+# 🇬🇧 Великобритания 🇬🇧
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.firm-tower.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=lon.eu-ffast.com&sid=50#%F0%9F%87%AC%F0%9F%87%A7%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%20%F0%9F%87%AC%F0%9F%87%A7
+
+# 🇰🇿 Казахстан 🇰🇿
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.soft-blade.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B0%F0%9F%87%BF%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%20%F0%9F%87%B0%F0%9F%87%BF
+
+# 🇫🇮 🎮 Игровой 1
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.wide-frost.test-cdn-kkk.com:8443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%8E%AE%20%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%201
+
+# 🇪🇪 🎮 Игровой 2
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.raw-maple.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AA%F0%9F%87%AA%20%F0%9F%8E%AE%20%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%202
+
+# 🇸🇪 🎮 Игровой 3
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.vast-mesa.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%B8%F0%9F%87%AA%20%F0%9F%8E%AE%20%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%203
+
+# 🇫🇮 LTE #1
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.pale-moose.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%231
+
+# 🇫🇮 LTE #2
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%232
+
+# 🇫🇮 LTE #3
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.fast-blade.test-cdn-kkk.com:10167?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%233
+
+# 🇫🇮 LTE #4
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%234
+
+# 🇫🇮 LTE #5
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.rare-blade.test-cdn-kkk.com:9443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%235
+
+# 🇫🇮 LTE #6
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.red-ridge.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%236
+
+# 🇫🇮 LTE #7
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.fox-marsh.test-cdn-kkk.com:9443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%237
+
+# 🇫🇮 LTE #8
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.rich-crown.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%238
+
+# 🇫🇮 LTE #9
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%239
+
+# 🇫🇮 LTE #10
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%2310
+
+# 🇫🇮 LTE #11 (T-Mobile)
+vless://91d6686b-25eb-45bb-8fc7-cb19b9bd7910@test.grey-lance.test-cdn-kkk.com:443?security=reality&encryption=none&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=50#%F0%9F%87%AB%F0%9F%87%AE%20LTE%20%2311%20(T-Mobile)
