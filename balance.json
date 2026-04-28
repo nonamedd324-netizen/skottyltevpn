@@ -1,0 +1,915 @@
+{
+    "dns": {
+        "servers": [
+            {
+                "address": "1.1.1.1",
+                "domains": [
+                    "speedtest.net",
+                    "ookla.com",
+                    "fast.com"
+                ],
+                "port": 53
+            },
+            "8.8.8.8",
+            "localhost"
+        ]
+    },
+    "inbounds": [
+        {
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "udp": true
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ],
+                "enabled": true
+            }
+        },
+        {
+            "port": 10809,
+            "protocol": "http",
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ],
+                "enabled": true
+            }
+        }
+    ],
+    "log": {
+        "loglevel": "warning"
+    },
+    "meta": null,
+    "observatory": {
+        "enableConcurrency": true,
+        "probeInterval": "10s",
+        "probeUrl": "https://www.google.com/generate_204",
+        "subjectSelector": [
+            "node-"
+        ]
+    },
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.41",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.41"
+                }
+            },
+            "tag": "node-1"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "cl-ru-1.edgeflux.ru",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cl-ru-1.edgeflux.ru"
+                }
+            },
+            "tag": "node-2"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "95.213.184.3",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "95.213.184.3"
+                }
+            },
+            "tag": "node-3"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "cl-ru-2.edgeflux.ru",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cl-ru-2.edgeflux.ru"
+                }
+            },
+            "tag": "node-4"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.71",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.71"
+                }
+            },
+            "tag": "node-5"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.55",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.55"
+                }
+            },
+            "tag": "node-6"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "82.202.197.3",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-1.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-7"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.154.215.113",
+                        "port": 443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "13c9f218-e05d-4de2-ae2c-d8861fe2ceef"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "realitySettings": {
+                    "fingerprint": "chrome",
+                    "publicKey": "E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw",
+                    "serverName": "wl-4-1.legendary.ac",
+                    "shortId": "30e93292b543f308"
+                },
+                "security": "reality"
+            },
+            "tag": "node-8"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.53",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-3.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-9"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.43",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.43"
+                }
+            },
+            "tag": "node-10"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.80",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-2710-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-de-2.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-11"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "188.124.37.201",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-3.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-12"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "188.246.226.14",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "188.246.226.14"
+                }
+            },
+            "tag": "node-13"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "193.233.103.243",
+                        "port": 443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "realitySettings": {
+                    "fingerprint": "chrome",
+                    "publicKey": "V6m8_CGU_f4Ym9yFxreUjm6rUBzvE4eNg_GHKWp0MG4",
+                    "serverName": "max.ru",
+                    "shortId": "e178a9d7bb36a98e"
+                },
+                "security": "reality"
+            },
+            "tag": "node-14"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "212.41.8.216",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "212.41.8.216"
+                }
+            },
+            "tag": "node-15"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.52",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.52"
+                }
+            },
+            "tag": "node-16"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.69",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.69"
+                }
+            },
+            "tag": "node-17"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.46",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.46"
+                }
+            },
+            "tag": "node-18"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "91.219.227.190",
+                        "port": 8083,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "",
+                                "id": "2745771a-4f18-4e49-8576-2e3d41b1f0be"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "realitySettings": {
+                    "fingerprint": "chrome",
+                    "publicKey": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+                    "serverName": "ads.x5.ru",
+                    "shortId": "7dbf7d3233971d5c"
+                },
+                "security": "reality"
+            },
+            "tag": "node-20"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "cl-de-1.edgeflux.ru",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-2710-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cl-de-1.edgeflux.ru"
+                }
+            },
+            "tag": "node-21"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.47",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-2710-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-de-2.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-22"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.87",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-01f4-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-de-2.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-23"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "82.202.249.151",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-1.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-24"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "82.202.249.248",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-3.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-25"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "217.168.240.252",
+                        "port": 5443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "4649d681-7f26-4959-a3f2-02eb8866230f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "realitySettings": {
+                    "fingerprint": "chrome",
+                    "publicKey": "wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg",
+                    "serverName": "yahoo.com",
+                    "shortId": "2344766a270a6298"
+                },
+                "security": "reality"
+            },
+            "tag": "node-26"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "91.206.14.229",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-russia-1.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-27"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "cl-de-2.edgeflux.ru",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-01f4-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cl-de-2.edgeflux.ru"
+                }
+            },
+            "tag": "node-28"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "178.72.181.125",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-0bb8-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "178.72.181.125"
+                }
+            },
+            "tag": "node-29"
+        },
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "cluster-de-2.firstvideocdn.ru",
+                        "port": 52006,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "75807638-6f19-01f4-ae08-38492ee85c88"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "cluster-de-2.firstvideocdn.ru"
+                }
+            },
+            "tag": "node-30"
+        },
+        {
+            "protocol": "freedom",
+            "tag": "direct"
+        }
+    ],
+    "remarks": "LTE/Wi-Fi | Авто сервер",
+    "routing": {
+        "balancers": [
+            {
+                "fallbackTag": "node-1",
+                "selector": [
+                    "node-"
+                ],
+                "strategy": {
+                    "type": "leastPing"
+                },
+                "tag": "ping-balancer"
+            }
+        ],
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "balancerTag": "ping-balancer",
+                "domain": [
+                    "speedtest.net",
+                    "ookla.com",
+                    "fast.com",
+                    "geosite:speedtest"
+                ],
+                "type": "field"
+            },
+            {
+                "network": "udp",
+                "outboundTag": "direct",
+                "port": "53",
+                "type": "field"
+            },
+            {
+                "domain": [
+                    "geosite:vk",
+                    "geosite:yandex",
+                    "geosite:mailru",
+                    "yastatic.net",
+                    "vk.me",
+                    "ok.ru",
+                    "regexp:.*\\.ru$"
+                ],
+                "outboundTag": "direct",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:private",
+                    "geoip:ru"
+                ],
+                "outboundTag": "direct",
+                "type": "field"
+            },
+            {
+                "balancerTag": "ping-balancer",
+                "network": "tcp,udp",
+                "type": "field"
+            }
+        ]
+    }
+}
